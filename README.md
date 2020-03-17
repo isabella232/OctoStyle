@@ -4,7 +4,7 @@ Everybody at Octopus writes whether it's documentation, blog posts, CLI help tex
 
 The style guide includes the following sections:
 
-- [Markdown quick reference](markdown-quick-reference)
+- [Markdown quick reference](markdown-quick-reference.md)
 - [Blog templates](blog-templates/readme.md)
 
 
