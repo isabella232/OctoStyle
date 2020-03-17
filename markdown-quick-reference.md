@@ -11,14 +11,14 @@ Markdown filenames are lowercase and end with `.md`. Use hyphens to separate wor
 
 ## Files and directories
 
-Directories must have a file called `index.md`.
+Directories must have an index file: `index.md`.
 
 directory/index.md
 directory/another-file.md
 
 ## YAML headers
 
-Every Markdown file has a YAML header:
+The Markdown files have a YAML header:
 
 ### YAML header (blog)
 
@@ -61,9 +61,9 @@ The first header you include on a page must be a h2 header. The title of the pag
 
 ## Formating text
 
-Bold text with `**` on both sides of the text **being emphasized**.
+Bold text with `**` on both sides of text to create `**bold text**`: **bold text**.
 
-Italicize text with `*` on both sides of the text *being emphasized*.
+Italicize text with `*` on both sides of text to create `*emphasized text*`: *emphasized text*.
 
 ## Images
 
