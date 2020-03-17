@@ -248,7 +248,7 @@ To create reusable text that is automatically added to any document that referen
 The latest version of Octopus Deploy is version 2020.1
 ```
 
-To include the text use the following syntax:
+To include the text in other documents use the following syntax everywhere you want it to be included:
 
 `!include <latest-version>`
 
