@@ -150,7 +150,7 @@ A break in the list.
 
 Use the following syntax to link to other documents within the blog repo, (include the full filename and extension:
 
-For more information, see the [installation page](/docs/installation/index.md) and review the [installation requirements](/docs/installation/requirements.md).
+For more information, see the `[installation page](/docs/installation/index.md)` and review the `[installation requirements](/docs/installation/requirements.md)`.
 
 This will link to https://www.octopus.com/docs/installation and https://www.octopus.com/docs/installation/requirements.
 
