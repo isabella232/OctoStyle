@@ -156,13 +156,13 @@ This will link to https://www.octopus.com/docs/installation and https://www.octo
 
 To link to a specific section within a document, add the section heading as an anchor and replace the spaces with a hyphen:
 
-Octopus can be installed on these versions of [Windows Server](docs/installation/requirements.md#windows-server).
+Octopus can be installed on these versions of `[Windows Server](docs/installation/requirements.md#windows-server)`.
 
 This will link to https://octopus.com/docs/installation/requirements#windows-server
 
 If you'd like to control the anchor text (Perhaps to ensure it doesn't change even if the title does), use the following syntax:
 
-  ## Windows Server {#windows-server}
+  `## Windows Server {#windows-server}`
 
 ## Navigation paths
 
