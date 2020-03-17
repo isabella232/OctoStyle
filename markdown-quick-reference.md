@@ -119,8 +119,8 @@ You can nest lists, by adding two spaces before the nested list items.
 Which is rendered as:
 
 1. Item 1
-  1. Item 1.1
-  1. Item 1.2
+   1. Item 1.1
+   1. Item 1.2
 1. Item 2
 
 If you include a break between the list, resume the list with the number the list should restart with:
