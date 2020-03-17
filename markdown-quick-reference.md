@@ -107,12 +107,12 @@ Which is rendered as:
 1. Item 1
 2. Item 2
 
-You can nest lists, by adding two spaces before the nested list items.
+You can nest lists, by adding three spaces before the nested list items.
 
 ```md
 1. Item 1
-  1. Item 1.1
-  1. Item 1.2
+   1. Item 1.1
+   1. Item 1.2
 1. Item 2
 ```
 
