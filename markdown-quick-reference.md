@@ -42,7 +42,7 @@ tags: <!-- see blog/tags.txt for a comprehensive list of tags -->
 ```md
 ---
 title: Installation <!-- page title -->
-description: How to install the central Octopus Deploy Server.
+description: How to install the Octopus Server.
 position: 20 <!-- position of the document relative to the other documents in the same section -->
 hideInThisSection: true  <!-- Optional. Hides the automatic "In this section" section that lists child documents in the same section. Leave out if not needed. -->
 hideInThisSectionHeader: true <!-- Optional. Only hides the header for the "In this section" section -->
