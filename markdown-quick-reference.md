@@ -1,4 +1,4 @@
-# Markdown Quick Reference
+# Markdown quick reference
 
 Both the [Octopus blog](https://github.com/OctopusDeploy/blog) and the [Octopus documentation](https://github.com/OctopusDeploy/docs) are written in Markdown and rendered using [markdig](https://github.com/lunet-io/markdig). Markdig supports [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) as well as some extra syntax. 
 
@@ -278,6 +278,27 @@ Will be replaced with:
 
 `octopusdeploy/octo:6.17.3`
 
+## Link to the Octopus Guides
+
+The Octopus Guides combine content to allow users to specify their entire CI/CD pipeline. It is sometimes helpful to link to the guides, with specific options predefined, rather than the default options.
+
+You can create the links to use by adding query parameters to the URL for the guides:
+
+- Application: add `?application=PHP`:
+    https://www.octopus.com/docs/guides?application=PHP
+- Build server: add `?build-server=jenkins`:
+    https://www.octopus.com/docs/guides?buildServer=Jenkins
+- Source control: `sourceControl=TFVC`:
+    https://octopus.com/docs/guides?sourceControl=TFVC
+- Package repository: `?packageRepository=Artifactory`:
+    https://octopus.com/docs/guides?packageRepository=Artifactory
+- Destination: `?destination=NGINX`
+    https://octopus.com/docs/guides?destination=NGINX
+
+If you'd like to pre-fill more than one option, add multiple queries parameters to the URL:
+
+https://octopus.com/docs/guides?application=PHP&buildServer=TeamCity&destination=NGINX
+
 ## Redirects
 
 If you delete or rename a file in either the docs or blog repos, you need to add a redirect for that file otherwise publishing will fail.
@@ -292,4 +313,5 @@ docs/page1.md -> docs/page2.md
 In the above example, `/docs/page1` is redirected to `/docs/page2`.
 
 Add your redirect to the end of the file, after the redirect is added, the original file (`page1`) needs to be deleted from the repo.
+
 
