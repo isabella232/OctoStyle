@@ -12,6 +12,7 @@ The following are capitalized:
 - Octopus Cloud
 - Workers
 - Spaces
+- Operations Runbooks
 
 The following are not capitalized (unless at the start of a sentence):
 
@@ -19,11 +20,14 @@ The following are not capitalized (unless at the start of a sentence):
 - Environment 
 - Server
 - Built-in repository
+- Runbooks (the concept as opposed to the feature)
 
 ## Octopus products
 
 - Octopus Server 
 	The Octopus Server (capitalized) is the product that on-premises customers download and install to access the REST API and the Octopus Web Portal. Do not use Octopus Deploy Server.
+- Octopus CLI
+	The command-line tool for interacting with Octopus. Do not use Octo CLI.
 
 ## Octopus concepts
 
