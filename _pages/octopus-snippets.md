@@ -31,7 +31,11 @@ The following are not capitalized (unless at the start of a sentence):
 
 ## Snippets
 
-The text snippets in this section are included from the [snippets repo](https://github.com/OctopusDeploy/snippets). To include them in
+The text snippets in this section are included from the [snippets repo](https://github.com/OctopusDeploy/snippets). To include the snippets in the blog and the docs use the following syntax:
+
+```
+!include <snippet name>
+```
 
 ### Octopus products
 
@@ -41,7 +45,10 @@ The text snippets in this section are included from the [snippets repo](https://
 
 Short text snippet:
 
+`!include <octopus-server>`
+
 {% include snippets/octopus-server.include.md %}
+
     
 - Octopus CLI
 
