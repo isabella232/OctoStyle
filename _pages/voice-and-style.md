@@ -1,4 +1,7 @@
-## Voice and style
+---
+layout: page
+title: Voice and style
+---
 
 Not everybody who reads the Octopus Deploy documentation is a native English speaker with a degree in computer science, though many are. To make the documentation as widely accessible as possible we recommend:
 

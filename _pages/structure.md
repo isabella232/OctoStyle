@@ -1,4 +1,7 @@
-# How to structure content
+---
+layout: page
+title: How to structure content
+---
 
 When creating new documentation, you should structure it as follows:
 
