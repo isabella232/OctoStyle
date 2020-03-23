@@ -12,7 +12,7 @@ The style guide includes the following sections:
 {% for page in site.pages %}
   {% if page.title %}
     <li>
-      <a href="{{ page.url}} ">{{page.title}}</a>
+      <a href="{{ page.url | prepend: site.baseurl }} ">{{page.title}}</a>
     </li>
   {% endif %}
 {% endfor %}
