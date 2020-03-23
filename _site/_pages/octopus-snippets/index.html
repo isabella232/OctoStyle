@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Octopus snippets - OctoStyle</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-touch-icon-114x114.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#311e3e">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#311e3e">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#311e3e">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+  <div class="flex-container">
+  <header class="main-header">
+  <div class="wrapper">
+    <div class="header-flex">
+      <div class="menu-icon-container">
+        <span class="menu-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+      </div>
+      <nav class="main-nav">
+        <span class="menu-icon-close"><i class="fa fa-times" aria-hidden="true"></i></span>
+        <ul>
+          <li><a href="/markdown">Markdown</a></li>
+        </ul>
+      </nav>
+      <p class="logo"><a href="/">OctoStyle</a></p>
+      <div class="search-icon-container">
+        <span class="search-icon"><a><i class="fa fa-search" aria-hidden="true"></i></a></span>
+      </div>
+    </div>
+  </div>
+</header> <!-- End Header -->
+
+  <div class="content wrapper">
+	<h1>Octopus snippets</h1>
+    <p>This page lists the preferred naming conventions for Octopus specific terms and contains reusable snippets of text that can be included in your repo.</p>
+
+<h2 id="capitalization">Capitalization</h2>
+
+<p>As a general rule, capitalize words and terms that are proper nouns. If you’re uncertain, default to not capitalizing terms.</p>
+
+<p>In terms of Octopus this means capitalizing product names, tool names, and the names of features, but not general concepts.</p>
+
+<p>The following are capitalized:</p>
+
+<ul>
+  <li>Octopus Server</li>
+  <li>Octopus Cloud</li>
+  <li>Workers</li>
+  <li>Spaces</li>
+  <li>Operations Runbooks</li>
+</ul>
+
+<p>The following are not capitalized (unless at the start of a sentence):</p>
+
+<ul>
+  <li>Deployment target</li>
+  <li>Environment</li>
+  <li>Server</li>
+  <li>Built-in repository</li>
+  <li>Runbooks (the concept as opposed to the feature)</li>
+</ul>
+
+<h2 id="snippets">Snippets</h2>
+
+<p>The text snippets in this section are included from the <a href="url">snippets repo</a>. To include them in</p>
+
+<h3 id="octopus-products">Octopus products</h3>
+
+<ul>
+  <li>
+    <p>Octopus Server</p>
+
+    <p>The Octopus Server (capitalized) is the product that on-premises customers download and install to access the REST API and the Octopus Web Portal. Do not use Octopus Deploy Server.</p>
+  </li>
+</ul>
+
+<p>Short text snippet:</p>
+
+<ul>
+  <li>
+    <p>Octopus CLI</p>
+
+    <p>The command-line tool for interacting with Octopus. Do not use Octo CLI.</p>
+  </li>
+</ul>
+
+<h2 id="octopus-concepts">Octopus concepts</h2>
+
+<ul>
+  <li>
+    <p>Deployment targets</p>
+
+    <p>Deployment targets (not capitalized unless at the beginning of a sentence) are the servers, services, and accounts where users deploy their software.</p>
+  </li>
+</ul>
+
+
+  <div class="search-box">
+  <div class="wrapper">
+    <div class="search-grid">
+      <form class="search-form">
+        <div id="search-container">
+          <input type="text" id="search-input" class="search" placeholder="Search">
+        </div>
+      </form>
+      <ul id="results-container" class="results-search"></ul>
+      <div class="icon-close-container">
+        <span class="search-icon-close"><i class="fa fa-times" aria-hidden="true"></i></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div> <!-- End Wrapper -->
+  <footer class="main-footer">
+  <div class="copyright">
+    <p>2020 &copy; </p>
+  </div>
+</footer> <!-- End Footer -->
+
+</div>
+
+  <!-- JS -->
+<script src="/assets/js/jquery-3.2.1.min.js"></script>
+<script src="/assets/js/jekyll-search.js"></script>
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: 'No results found',
+    fuzzy: false,
+    exclude: ['Welcome']
+  });
+</script>
+<script src="/assets/js/main.js"></script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script> <!-- End Analytics -->
+
+</body>
+</html>

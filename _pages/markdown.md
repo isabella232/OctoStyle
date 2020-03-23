@@ -1,4 +1,8 @@
-# Markdown quick reference
+---
+layout: page
+title: Markdown quick reference
+permalink: /markdown
+---
 
 Both the [Octopus blog](https://github.com/OctopusDeploy/blog) and the [Octopus documentation](https://github.com/OctopusDeploy/docs) are written in Markdown and rendered using [markdig](https://github.com/lunet-io/markdig). Markdig supports [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) as well as some extra syntax. 
 
@@ -162,13 +166,18 @@ This will link to https://octopus.com/docs/installation/requirements#windows-ser
 
 If you'd like to control the anchor text (Perhaps to ensure it doesn't change even if the title does), use the following syntax:
 
-  `## Windows Server {#windows-server}`
+
+~~~
+## Windows Server {#windows-server}
+~~~
 
 ## Navigation paths
 
 When instructing users to navigate through multiple options in the UI, use the following syntax:
 
-`{{ infrastructure,Deployment Targets}}`
+
+    {% raw %}{{ infrastructure,Deployment Targets}}{% endraw %}
+
 
 Which will be rendered:
 
