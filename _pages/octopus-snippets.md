@@ -31,7 +31,7 @@ The following are not capitalized (unless at the start of a sentence):
 
 ## Snippets
 
-The text snippets in this section are included from the [snippets repo](url). To include them in
+The text snippets in this section are included from the [snippets repo](https://github.com/OctopusDeploy/snippets). To include them in
 
 ### Octopus products
 
