@@ -3,9 +3,9 @@ layout: page
 title: Octopus snippets
 ---
 
-This page lists the preferred naming conventions for Octopus specific terms and contains reusable snippets of text that can be included in your repo.
+This page lists the preferred naming conventions for Octopus specific terms and reusable snippets of text that can be included in your text.
 
-The text snippets in this section are included from the [snippets repo](https://github.com/OctopusDeploy/snippets). To include the snippets in the blog and the docs use the following syntax:
+The text snippets are included from the [snippets repo](https://github.com/OctopusDeploy/snippets) as a submodule that has [todo] also been added to the docs and blog repos. To include the snippets in the blog and the docs use the following syntax:
 
 ```
 !include <snippet-name>
@@ -13,7 +13,7 @@ The text snippets in this section are included from the [snippets repo](https://
 
 ## Octopus Server 
     
-    The Octopus Server (capitalized) is the product that on-premises customers download and install to access the REST API and the Octopus Web Portal. Do not use Octopus Deploy Server.
+The Octopus Server (capitalized) is the product that on-premises customers download and install to access the REST API and the Octopus Web Portal. Do not use Octopus Deploy Server.
 
 Short text snippet:
 
@@ -23,9 +23,9 @@ Short text snippet:
     
 ## Octopus CLI
 
-    The command-line tool for interacting with Octopus. Do not use Octo CLI.
+The command-line tool for interacting with Octopus. Do not use Octo CLI.
 
 ## Deployment targets 
 
-    Deployment targets (not capitalized unless at the beginning of a sentence) are the servers, services, and accounts where users deploy their software.
+ Deployment targets (not capitalized unless at the beginning of a sentence) are the servers, services, and accounts where users deploy their software.
 
