@@ -1,6 +1,6 @@
 ---
 layout: page
-title:Capitalization
+title: Capitalization
 ---
 
 As a general rule, capitalize words and terms that are proper nouns. If you're uncertain, default to not capitalizing terms.

@@ -5,12 +5,10 @@ title: Octopus snippets
 
 This page lists the preferred naming conventions for Octopus specific terms and contains reusable snippets of text that can be included in your repo.
 
-## Snippets
-
 The text snippets in this section are included from the [snippets repo](https://github.com/OctopusDeploy/snippets). To include the snippets in the blog and the docs use the following syntax:
 
 ```
-!include <snippet name>
+!include <snippet-name>
 ```
 
 ## Octopus Server 
