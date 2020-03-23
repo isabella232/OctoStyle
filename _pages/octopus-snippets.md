@@ -40,6 +40,8 @@ The text snippets in this section are included from the [snippets repo](url). To
     The Octopus Server (capitalized) is the product that on-premises customers download and install to access the REST API and the Octopus Web Portal. Do not use Octopus Deploy Server.
 
 Short text snippet:
+
+{% include snippets/octopus-server.include.md %}
     
 - Octopus CLI
 
