@@ -1,6 +1,7 @@
 ---
 layout: page
 title: How to structure content
+order: 70
 ---
 
 When creating new documentation, you should structure it as follows:

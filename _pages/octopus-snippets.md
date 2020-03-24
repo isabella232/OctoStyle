@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Octopus snippets
+order: 50
 ---
 
-This page lists the preferred naming conventions for Octopus specific terms and reusable snippets of text that can be included in the blog, the docs, or any other repo that has [added the snippets submodule](snippets-submodule.md).
+This page lists the preferred naming conventions for Octopus specific terms and reusable snippets of text that can be included in the blog, the docs, or any other repo that has [added the snippets repo as a submodule](snippets-submodule.md).
 
 To include specific snippet text, use the following syntax:
 

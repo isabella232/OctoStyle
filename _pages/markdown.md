@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Markdown quick reference
+order: 10
 ---
 
 Both the [Octopus blog](https://github.com/OctopusDeploy/blog) and the [Octopus documentation](https://github.com/OctopusDeploy/docs) are written in Markdown and rendered using [markdig](https://github.com/lunet-io/markdig). Markdig supports [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) as well as some extra syntax. 
@@ -16,12 +17,12 @@ Markdown filenames are lowercase and end with `.md`. Use hyphens to separate wor
 
 Directories must have an index file: `index.md`.
 
-directory/index.md
-directory/another-file.md
+- directory/index.md
+- directory/another-file.md
 
 ## YAML headers
 
-The Markdown files have a YAML header:
+The Markdown files in the blog and docs have a YAML header:
 
 ### YAML header (blog)
 
@@ -70,7 +71,9 @@ Italicize text with `*` on both sides of text to create `*emphasized text*`: *em
 
 ## Images
 
-Add images to an `images/` directory in the same directory as the file that references the image. Image filenames must be all lowercase. 
+Image filenames must be all lowercase. 
+
+Add images to an `images/` directory in the same directory as the file that references the image.
 
 Images are added to documents with the following syntax:
 
@@ -80,7 +83,7 @@ Images should include alt text for accessibility:
 
 	![A brief description of the image](images/image-name.png)
 
-Control the size of the image in pixels with the text `width=500`:
+Control the size of the image in pixels by adding: `width=500`:
 
 	![A brief description of the image](images/image-name.png "width=500")
 
@@ -98,7 +101,7 @@ Which is rendered as:
 - Item 1
 - Item 2
 
-Numbered lists are written with a number at the beginning of the line:
+Numbered lists are written with a number at the beginning of the line. The numbers do not need to increment as this will happen automatically:
 
 ```md
 1. Item 1
@@ -126,7 +129,7 @@ Which is rendered as:
    1. Item 1.2
 1. Item 2
 
-If you include a break between the list, resume the list with the number the list should restart with:
+If you include a break between the list, resume the list with the number the list should restart from:
 
 ```md
 1. Item 1
@@ -144,8 +147,7 @@ Which is rendered as:
 1. Item 1
 2. Item 2
 
-A break in the list.
-
+  A break in the list.
 3. Item 3
 4. Item 4
 

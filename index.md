@@ -2,15 +2,14 @@
 layout: home-page
 ---
 
-# The Octopus style guide
-
-Everybody at Octopus writes whether it's documentation, blog posts, CLI help text, marketing copy, pitches, or text within the product itself. This guide aims to be a useful resource to serve as a quick reference to keep us consistent whenever we're unsure how to write a piece of text.
+Everybody at Octopus writes whether it's documentation, blog posts, CLI help text, marketing copy, pitches, or text within the product itself. This guide is not intended to be an exhaustive resource that lists every possible way of doing something. Instead, it aims to be a quick reference for the conventions we use at Octopus and as a useful resource to keep us consistent whenever we're unsure how to write or structure a piece of text.
 
 The style guide includes the following sections:
 
 <ul>
-{% for page in site.pages %}
-  {% if page.title %}
+{% assign pages = site.pages | sort: "order" %}
+{% for page in pages %}
+  {% if page.title != home %}
     <li>
       <a href="{{ page.url | prepend: site.baseurl }} ">{{page.title}}</a>
     </li>
@@ -18,9 +17,8 @@ The style guide includes the following sections:
 {% endfor %}
 </ul>
 
+## Contribute to the style guide
 
-## Contributing to the style guide
+The easiest way to contribute to this guide is to raise a PR in the [repo](https://github.com/OctopusDeploy/OctoStyle) with the changes or additions you'd like to see added to the guide.
 
-This guide is not intended to be an exhaustive resource that lists every possible way of doing something. Instead, it focuses getting people up and running as quickly as possible and as a place to add new insights as they occur.
-
-The easy way to contribute to this guide is to raise a PR with the changes or additions you'd like to see added to the guide.
+This guide is a simple [Jekyll](https://jekyllrb.com/) site. The main content pages for the site are located in the `_pages` directory.
