@@ -17,7 +17,7 @@ The Octopus Server (capitalized) is the product that on-premises customers downl
 
 Short text snippet:
 
-    `!include <octopus-server>`
+`!include <octopus-server>`
 
 {% include snippets/octopus-server.include.md %}
     
