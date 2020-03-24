@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Markdown quick reference
-permalink: /markdown
 ---
 
 Both the [Octopus blog](https://github.com/OctopusDeploy/blog) and the [Octopus documentation](https://github.com/OctopusDeploy/docs) are written in Markdown and rendered using [markdig](https://github.com/lunet-io/markdig). Markdig supports [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) as well as some extra syntax. 
@@ -312,7 +311,7 @@ https://octopus.com/docs/guides?application=PHP&buildServer=TeamCity&destination
 
 If you delete or rename a file in either the docs or blog repos, you need to add a redirect for that file otherwise publishing will fail.
 
-Redirects are added to [redirects.txt](docs/redirects.txt) and [redirects.txt](blog/redirects.txt) respectively.
+Redirects are added to `[redirects.txt](docs/redirects.txt)` and `[redirects.txt](blog/redirects.txt)` respectively.
 
 The redirects.txt file looks like this:
 ```
