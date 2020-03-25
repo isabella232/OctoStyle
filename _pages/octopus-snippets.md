@@ -16,7 +16,7 @@ There are three types of snippets:
 
 - **One line**: A short sentence that states what something is but doesn't provide any context. 
 - **Brief**: A brief sentence or paragraph that states what something is and what problem it solves.
-- **Intro**: An introduction to the concept that states what something is, what problem it solves, and how to apply it.
+- **Intro**: An introduction to the concept that states what something is, what problem it solves, and how to start applying it.
 
 ## Available snippets
 
