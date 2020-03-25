@@ -44,6 +44,7 @@ To include, use:
 	{% endif %}
 	{% if term.brief == true %}
 		{% assign brief = term.handle | append: "-brief.include.md" | prepend: "snippets/" %}
+
 **Brief snippet**:
 
 To include, use: 
@@ -54,6 +55,7 @@ To include, use:
 	{% endif %}
 	{% if term.intro == true %}
 		{% assign intro = term.handle | append: "-intro.include.md" | prepend: "snippets/" %}
+		
 **Intro snippet**:
 
 To include, use: 
