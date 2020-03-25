@@ -4,7 +4,7 @@ title: Octopus snippets
 order: 50
 ---
 
-This page lists the preferred naming conventions for Octopus specific terms and reusable snippets of text that can be included in the blog, the docs, or any other repo that has [added the snippets repo as a submodule](snippets-submodule.md).
+This page lists the preferred naming conventions for Octopus specific terms and lists reusable snippets of text that can be included in the blog, the docs, or any other repo that has [added the snippets repo as a submodule](snippets-submodule.md).
 
 To include specific snippet text, use the following syntax:
 
@@ -12,20 +12,27 @@ To include specific snippet text, use the following syntax:
 !include <snippet-name>
 ```
 
-There are four types of snippets:
+There are three types of snippets:
 
-- One line: A brief sentence that states what something is but doesn't provide any context.
-- short: 
-- Full: 
-- Extended:
+- One line: A short sentence that states what something is but doesn't provide any context. 
+- brief: A brief sentence or paragraph that states what something is and what problem it solves.
+- intro: An introduction to the concept that states what something is, what problem it solves, and how to apply it.
+
+## Available snippets
+
+<ul>
+{% for term in site.terms %}
+ <li><a href="#{{ term.handle }}">{{ term.title }}</a></li>
+{% endfor %}
+</ul>
 
 {% for term in site.terms %}
-## {{ term.description }}
+## {{ term.title }}
 	{% if term.notes %}
 {{ term.notes }}
 	{% endif %}
-	{% if term.one-liner == true %}
-		{% assign one-liner = term.handle | append: "-one-line.include.md" | prepend: "snippets/" %}
+	{% if term.one-line == true %}
+		{% assign one-line = term.handle | append: "-one-line.include.md" | prepend: "snippets/" %}
 
 **One line snippet**:
 
@@ -33,17 +40,27 @@ To include, use:
 
 `!include <{{ term.handle | append: "-one-line" }}>`
 
-{% include {{ one-liner }} %}
+{% include {{ one-line }} %}
 	{% endif %}
-		{% if term.short == true %}
-		{% assign short = term.handle | append: "-short.include.md" | prepend: "snippets/" %}
-**Short snippet**:
+	{% if term.brief == true %}
+		{% assign brief = term.handle | append: "-brief.include.md" | prepend: "snippets/" %}
+**Brief snippet**:
 
 To include, use: 
 
-`!include <{{ term.handle | append: "-short" }}>`
+`!include <{{ term.handle | append: "-brief" }}>`
 
-{% include {{ short }} %}
+{% include {{ brief }} %}
+	{% endif %}
+	{% if term.intro == true %}
+		{% assign intro = term.handle | append: "-intro.include.md" | prepend: "snippets/" %}
+**Intro snippet**:
+
+To include, use: 
+
+`!include <{{ term.handle | append: "-intro" }}>`
+
+{% include {{ intro }} %}
 	{% endif %}
 {% endfor %}
     
