@@ -55,7 +55,7 @@ To include, use:
 	{% endif %}
 	{% if term.intro == true %}
 		{% assign intro = term.handle | append: "-intro.include.md" | prepend: "snippets/" %}
-		
+
 **Intro snippet**:
 
 To include, use: 
@@ -66,7 +66,3 @@ To include, use:
 	{% endif %}
 {% endfor %}
     
-## Deployment targets
-
- Deployment targets (not capitalized unless at the beginning of a sentence) are the servers, services, and accounts where users deploy their software.
-
