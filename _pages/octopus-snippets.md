@@ -12,27 +12,42 @@ To include specific snippet text, use the following syntax:
 !include <snippet-name>
 ```
 
-## Octopus Server (capitalized)
+There are four types of snippets:
+
+- One line: A brief sentence that states what something is but doesn't provide any context.
+- short: 
+- Full: 
+- Extended:
+
+{% for term in site.terms %}
+## {{ term.description }}
+	{% if term.notes %}
+{{ term.notes }}
+	{% endif %}
+	{% if term.one-liner == true %}
+		{% assign one-liner = term.handle | append: "-one-line.include.md" | prepend: "snippets/" %}
+
+**One line snippet**:
+
+To include, use: 
+
+`!include <{{ term.handle | append: "-one-line" }}>`
+
+{% include {{ one-liner }} %}
+	{% endif %}
+		{% if term.short == true %}
+		{% assign short = term.handle | append: "-short.include.md" | prepend: "snippets/" %}
+**Short snippet**:
+
+To include, use: 
+
+`!include <{{ term.handle | append: "-short" }}>`
+
+{% include {{ short }} %}
+	{% endif %}
+{% endfor %}
     
-The Octopus Server (capitalized) is the product that on-premises customers download and install to access the REST API and the Octopus Web Portal. Do not use Octopus Deploy Server.
-
-One line text snippet:
-
-`!include <octopus-server-one-line>`
-
-{% include snippets/octopus-server-one-line.include.md %}
-
-Short text snippet:
-
-`!include <octopus-server-short>`
-
-{% include snippets/octopus-server-short.include.md %}
-    
-## Octopus CLI
-
-The command-line tool for interacting with Octopus. Do not use Octo CLI.
-
-## Deployment targets 
+## Deployment targets
 
  Deployment targets (not capitalized unless at the beginning of a sentence) are the servers, services, and accounts where users deploy their software.
 
