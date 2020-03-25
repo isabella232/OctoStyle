@@ -146,13 +146,13 @@ Which is rendered as:
    1. Item 1.2
 1. Item 2
 
-If you include an interruption between list items, the interruption needs to be indented two spaces, and you should resume the list with the number the list should restart from:
+If you include an interruption between list items, you need to resume the list with the number the list should restart from:
 
 ```md
 1. Item 1
 1. Item 2
 
-  A break in the list.
+A break in the list.
 
 3. Item 3
 3. Item 4
