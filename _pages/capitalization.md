@@ -4,9 +4,9 @@ title: Capitalization
 order: 20
 ---
 
-As a general rule, capitalize words and terms that are proper nouns. If you're uncertain, default to not capitalizing terms.
+As a general rule, capitalize words and terms that are proper nouns or would normally be capitalized. If you're uncertain, default to not capitalizing terms.
 
-In terms of Octopus this means capitalizing product names, tool names, and the names of features, but not general concepts.
+For Octopus, this means capitalizing product names, tool names, and the names of features, but not general concepts.
 
 The following are capitalized:
 

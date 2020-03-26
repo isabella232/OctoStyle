@@ -2,7 +2,7 @@
 layout: home-page
 ---
 
-Everybody at Octopus writes whether it's documentation, blog posts, CLI help text, marketing copy, pitches, or text within the product itself. This guide is not intended to be an exhaustive resource that lists every possible way of doing something. Instead, it aims to be a quick reference for the conventions we use at Octopus and as a useful resource to keep us consistent whenever we're unsure how to write or structure a piece of text.
+Everybody at Octopus writes whether it's documentation, blog posts, CLI help text, marketing copy, pitches, support emails, or text within the product itself. This guide aims to be a quick reference for the conventions we use at Octopus and as a useful resource to keep us consistent whenever we're unsure how to write or structure a piece of text.
 
 The style guide includes the following sections:
 
