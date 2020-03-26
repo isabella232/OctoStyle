@@ -20,8 +20,6 @@ The following types of snippets are available:
 - **Brief**: A brief sentence or paragraph that states what something is and what problem it solves.
 - **Intro**: An introduction to the concept that states what something is, what problem it solves, and how to start applying it.
 
-**Note**: some of the snippets include images, but I'm still working on getting those to show up here (you should check the snippets render as expected when you use them).
-
 ## Available snippets
 
 <ul>
