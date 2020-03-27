@@ -282,16 +282,16 @@ Call-outs are added through bootstrap alerts [https://getbootstrap.com/component
 To create reusable text that is automatically added to any document that references it, add the text to a new file and save the file with a key followed by `.include.md`. For instance, `latest-version.include.md`, and save the file to the `docs/shared-content/` or `blog/shared-content/` directory respectively:
 
 ```md
-The latest version of Octopus Deploy is version 2020.1
+The latest version of Octopus Deploy is 2020.1
 ```
 
-To include the text in other documents use the following syntax everywhere you want the text to be included:
+If the complete filename is `latest-version.include.md`, to include the text in other documents use the following syntax everywhere you want the text to be included:
 
 `!include <latest-version>`
 
 When you use an include file in this way, you only need to update the text in one file and the updated text will be included anywhere it is referenced.
 
-See [Octopus snippets](octopus-snippets.md) for more information on this topic and a library of ready to use snippets.
+See [Octopus snippets](octopus-snippets.md) for more information on this topic and a library of ready to use snippets across repos.
 
 ### Docker images
 
