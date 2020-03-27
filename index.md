@@ -21,4 +21,4 @@ The style guide includes the following sections:
 
 The easiest way to contribute to this guide is to raise a PR in the [repo](https://github.com/OctopusDeploy/OctoStyle) with the changes or additions you'd like to see added to the guide.
 
-This guide is a simple [Jekyll](https://jekyllrb.com/) site. The main content pages for the site are located in the `_pages` directory.
+This guide is a simple [Jekyll](https://jekyllrb.com/) site. The main content pages are written in [Markdown](markdown.md) and are located in the `_pages` directory.
