@@ -285,7 +285,7 @@ To create reusable text that is automatically added to any document that referen
 The latest version of Octopus Deploy is 2020.1
 ```
 
-If the complete filename is `latest-version.include.md`, to include the text in other documents use the following syntax everywhere you want the text to be included:
+If the complete filename is `latest-version.include.md`, to include the text in other documents use the following everywhere you want the text to be included:
 
 `!include <latest-version>`
 
