@@ -12,6 +12,8 @@ To include specific snippet text, use the following syntax:
 !include <snippet-name>
 ```
 
+Or if they don't quite fit your purposes, copy and paste, and use them as a starting.
+
 ## Taxonomy
 
 The following types of snippets are available:
