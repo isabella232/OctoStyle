@@ -21,8 +21,8 @@ The following are capitalized:
 
 The following are not capitalized (unless at the start of a sentence):
 
-- Deployment target
-- Environment 
-- Server
-- Built-in repository
-- Runbooks (the concept as opposed to the feature)
+- deployment target
+- environment 
+- server
+- built-in repository
+- runbooks (the concept as opposed to the feature)
