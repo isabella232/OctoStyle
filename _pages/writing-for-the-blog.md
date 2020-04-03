@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Writing tips for the blog
+permalink: writing-tips-for-the-blog
+order: 32
 ---
  
 The Octopus blog is one of the ways we talk to our customers and help future customers discover Octopus. We do this by publishing posts that resonate with our users (and potential users) on topics of interest to them that intersect with the problems Octopus solves.
