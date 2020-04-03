@@ -7,6 +7,8 @@ permalink: capitalization
 
 As a general rule, capitalize words and terms that are proper nouns or would normally be capitalized. If you're uncertain, default to not capitalizing terms.
 
+Titles are written in sentence case, and only words that are normally capitalized are capitalized in titles.
+
 For Octopus, this means capitalizing product names, tool names, and the names of features, but not general concepts.
 
 The following are capitalized:
