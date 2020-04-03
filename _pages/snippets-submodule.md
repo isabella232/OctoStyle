@@ -2,6 +2,7 @@
 layout: page
 title: The snippets submodule
 order: 55
+permalink: snippets-submodule
 ---
 
 The text snippets on this page are included from the [snippets repo](https://github.com/OctopusDeploy/snippets) as a submodule that has [TODO] also been added to the docs and blog repos. 

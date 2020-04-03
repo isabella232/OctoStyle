@@ -2,6 +2,7 @@
 layout: page
 title: Capitalization
 order: 20
+permalink: capitalization
 ---
 
 As a general rule, capitalize words and terms that are proper nouns or would normally be capitalized. If you're uncertain, default to not capitalizing terms.
