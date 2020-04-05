@@ -22,4 +22,6 @@ Make sure any information that is conveyed in the screenshot is done so to suppl
 
 The Octopus UI has a light theme and a dark theme. We want our readers to have a consistent experience across our site when they see images of the UI. Unless you are specifically discussing the dark mode theme, use light mode for screenshots of the Octopus Web Portal.
 
+## Related pages
+
 See [adding images with markdown]({{site.url}}/{{site.baseurl}}/markdown#images).
