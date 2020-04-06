@@ -1761,3 +1761,7 @@ pre code {
     margin: 0 0 15px;
   }
 }
+
+.ul {
+  line-height: 1.5em;
+}
