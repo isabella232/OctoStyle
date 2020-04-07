@@ -15,7 +15,7 @@ The following is the minimum markdown you need:
 
 1. `## H2 Heading, ### H3 heading.`
 
-1. `Use **bold** for feature names and UI elements, use *italics* to add emphasis, and use back ticks for parameters and file paths`:
+1. Use `**bold**` for feature names and UI elements, use `*italics*` to add emphasis, and use back ticks for parameters and file paths:
 ~~~
 `~/.ssh/id_rsa.pub`
 ~~~
