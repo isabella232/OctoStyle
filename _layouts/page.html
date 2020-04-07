@@ -15,7 +15,7 @@ layout: default
 {% for pages in site.pages %}
 	{% if pages.family == page.family %}
 		{% if pages.title != page.title %}
-			<li><a href="{{ pages.url }}">{{ pages.title }}</a></li>
+			<li><a href="{{ pages.url | prepend: site.baseurl }}">{{ pages.title }}</a></li>
 		{% endif %}
 	{% endif %}
 {% endfor %}
