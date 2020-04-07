@@ -5,7 +5,7 @@ order: 0
 permalink: writing-at-octopus-tldr
 ---
 
-This pages includes the basics you need to get started, as does the [basic blog template](https://github.com/OctopusDeploy/blog/blob/master/templates/basic-template.md). More detailed instructions are available in the rest of this guide.
+This pages includes the basics you need to get started, as does the [basic blog template](https://github.com/OctopusDeploy/blog/blob/master/templates/basic-template.md). More detailed instructions are available in the rest of this [guide](https://octopusdeploy.github.io/OctoStyle/).
 
 ## Markdown
 
