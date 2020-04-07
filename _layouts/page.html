@@ -14,7 +14,9 @@ layout: default
 	<li><a href="https://octopusdeploy.github.io/OctoStyle/">Style guide home</li>
 {% for pages in site.pages %}
 	{% if pages.family == page.family %}
-	<li><a href="{{ pages.url }}">{{ pages.title }}</a></li>
+		{% if pages.title != page.title %}
+			<li><a href="{{ pages.url }}">{{ pages.title }}</a></li>
+		{% endif %}
 	{% endif %}
 {% endfor %}
 </ul>
