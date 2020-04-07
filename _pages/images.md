@@ -3,6 +3,7 @@ layout: page
 title: Working with images
 order: 40
 permalink: images
+family: language
 ---
 
 ## Screenshots 

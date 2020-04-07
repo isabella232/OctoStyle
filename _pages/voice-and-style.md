@@ -3,6 +3,7 @@ layout: page
 title: Voice and style
 order: 30
 permalink: voice-and-style
+family: language
 ---
 
 Not everybody who interacts with Octopus Deploy or reads our words is a native English speaker with a degree in computer science, though many are. To make our communication as widely accessible as possible we recommend:

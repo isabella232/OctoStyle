@@ -3,6 +3,7 @@ layout: page
 title: Writing for Octopus TL;DR
 order: 0
 permalink: writing-at-octopus-tldr
+family: language
 ---
 
 This pages includes the basics you need to get started, as does the [basic blog template](https://github.com/OctopusDeploy/blog/blob/master/templates/basic-template.md). More detailed instructions are available in the rest of this [guide](https://octopusdeploy.github.io/OctoStyle/).
