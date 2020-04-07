@@ -5,7 +5,7 @@ order: 0
 permalink: 
 ---
 
-This pages includes the basics you need to get started, more detailed instructions are available in the rest of the guide.
+This pages includes the basics you need to get started, as does the [basic blog template](https://github.com/OctopusDeploy/blog/blob/master/templates/basic-template.md). More detailed instructions are available in the rest of this guide.
 
 ## Markdown
 
