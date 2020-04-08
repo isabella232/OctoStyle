@@ -96,7 +96,7 @@ If you'd like to use screenshots or other images, here are a couple of tips to k
 
 1. Consider if a screenshot is the right tool for the job.
 
-    Screenshots are easy to capture, whereas code blocks can be a lot more work, however, it's good to consider what will be most helpful to the reader. If they's a chance your reader will want to copy commands from a screenshot, it's more helpful to copy the commands into a code block.
+    Screenshots are easy to capture, whereas code blocks can be a lot more work, however, it's good to consider what will be most helpful to the reader. If there's a chance your reader will want to copy commands from a screenshot, it's more helpful to copy the commands into a code block.
 
 1. Check the rights on images you source online.
 
