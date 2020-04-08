@@ -45,7 +45,7 @@ Use images and screenshots to help illustrate your point. Here are some pointers
 
    1. Crop the image so only the window you’re showing is visible.
    1. Show enough of the UI that readers can see where they need to look, but don’t include the entire screen if it’s not needed.
-   1. Use screenshots to reassure readers they're on the right path, but don't use screenshots for ever step users need to take.
+   1. Use screenshots to reassure readers they're on the right path, but don't use screenshots for every step users need to take.
    1. Resize your images so they’re 72dpi.
    1. Don’t rely on the image alone to explain steps a user must take. If there is information in the screenshot the user needs, repeat it in the text (screenshots go stay and users can't copy and paste from screenshots).
    1. If your screenshot is of the Octopus UI, use light mode.
