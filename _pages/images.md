@@ -8,7 +8,7 @@ family: language
 
 ## Screenshots 
 
-When you're demonstrating how to complete a task in a UI, screenshots can be incredibly useful. When used well they reassure users they’re on the right path and make following the steps a frictionless process. However, it is important not to over-rely on screenshots as UIs change and users can be left confused when the screenshot doesn't match the UI.
+When you're demonstrating how to complete a task in a UI, screenshots can be incredibly useful. When used well, they reassure users they’re on the right path and make following the steps a frictionless process. However, it is important not to over-rely on screenshots as UIs change and users can be left confused when the screenshot doesn't match the UI.
 
 To help get the balance right, think of screenshots as signposts along the way. Don’t include screenshots for every step of a procedure, but to orient the user if:
 
@@ -49,9 +49,9 @@ Make sure any information that is conveyed in the screenshot is done so to suppl
 
 	The help text is incredibly useful in the Octopus Web Portal, but it will make screenshots look crowded.
 
-1. Use green callouts
+1. Use green call-outs
 
-	Use green callouts when you need to draw attention to some aspect of the UI. 
+	Use green call-outs when you need to draw attention to some aspect of the UI. 
 
 	Use these colors:
 	1. RGBA: 0, 204, 101, 255
