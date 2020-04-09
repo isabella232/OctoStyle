@@ -22,7 +22,3 @@ Not everybody who interacts with Octopus Deploy or reads our words is a native E
 - Define technical terms the reader might not be familiar with.
 - Try to anticipate the types of problems your reader is trying to solve. In documentation, instead of describing features, explain how the feature can solve the user's problem.
 
-## Related
-
-- [Writing tips for the blog](writing-tips-for-the-blog)
-
