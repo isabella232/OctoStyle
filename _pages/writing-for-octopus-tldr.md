@@ -10,20 +10,20 @@ This pages includes the basics you need to get started, as does the [basic blog 
 
 ## Markdown
 
-The blog and the docs are both written with [markdown](markdown.md).
+The blog and the docs are both written with [Markdown](markdown.md).
 
-The following is the minimum markdown you need:
+The following is the minimum Markdown you need:
 
-1. `## H2 Heading, ### H3 heading.`
+1. `##` H2 Heading, `###` H3 heading.
 
 1. Use `**bold**` for feature names and UI elements, use `*italics*` to add emphasis, and use back ticks for parameters and file paths:
 ~~~
 `~/.ssh/id_rsa.pub`
 ~~~
 
-1. Add `[links](https://www.octopus.com)`.
+1. Add a `[link](https://www.octopus.com)`.
 
-1. Code blocks:
+1. Create a code block:
 ~~~
 ```
 Write-Host "Hello, World!"
@@ -37,18 +37,17 @@ Write-Host "Hello, World!"
 
 ## Sentence case
 
-Use sentence case for titles. Sentence case uses the same capitalization rules as normal sentences. Title case capitalizes most words in the title, but we don't use title case.
+Use sentence case for titles. Sentence case uses the same capitalization rules as normal sentences, whereas title case capitalizes most words in the title. We don't use title case.
 
 ## Images
 
-Use images and screenshots to help illustrate your point. Here are some pointers for images see [working with images](images.md):
+Use images and screenshots to help illustrate your point, but don't rely on images alone to convey your meaning. Use a screenshot if:
 
-   1. Crop the image so only the window you’re showing is visible.
-   1. Show enough of the UI that readers can see where they need to look, but don’t include the entire screen if it’s not needed.
-   1. Use screenshots to reassure readers they're on the right path, but don't use screenshots for every step users need to take.
-   1. Resize your images so they’re 72dpi.
-   1. Don’t rely on the image alone to explain steps a user must take. If there is information in the screenshot the user needs, repeat it in the text (screenshots go stay and users can't copy and paste from screenshots).
-   1. If your screenshot is of the Octopus UI, use light mode.
+- They might struggle to locate an item in the UI.
+- The procedure jumps from one place in the UI to another.
+- You want to reassure them they’re in the right place.
+
+For more information see [working with images](images.md).
 
 ## Proofread
 
