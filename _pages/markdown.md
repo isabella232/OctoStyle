@@ -17,17 +17,18 @@ Both the [Octopus blog](https://github.com/OctopusDeploy/blog) and the [Octopus 
 - [Images](#images)
 - [Lists](#lists)
 - [Links](#links)
-- [Navigation Paths](#navigation-paths)
+- [Navigation paths](#navigation-paths)
 - [Code samples](#code-samples)
 - [Call-outs](#call-outs)
 - [Reuse text](#reuse-text)
+- [Referencing Docker images](#referencing-docker-images)
 - [Link to the Octopus Guides](#link-to-the-octopus-guides
 )
 - [Redirects](#redirects)
 
 ## Filenames
 
-Markdown filenames are lowercase and end with `.md`. Use hyphens to separate words.
+Markdown filenames are lowercase and end with `.md`. Use hyphens to separate words:
 
 - `installation.md`
 - `backup-and-restore.md`
@@ -175,19 +176,19 @@ A break in the list.
 
 ## Links
 
-To link to other pages with the documentation, use the following syntax (include the full filename and extension):
+To link to other pages within the **documentation**, use the following syntax (include the full filename and extension):
 
 For more information, see the `[installation page](/docs/installation/index.md)` and review the `[installation requirements](/docs/installation/requirements.md)`.
 
 This will link to https://www.octopus.com/docs/installation and https://www.octopus.com/docs/installation/requirements.
 
-To link to other posts with the blog, use the following syntax (include the full filename and extension):
+To link to other posts within the **blog**, use the following syntax (include the full filename and extension):
 
 This is part one in a series of posts, read `[part two](blog/2020-03/blog-title-part-two.md)`.
 
-This will link to https://www.octopus.com/blog/blog-title-part-two.
+This links to https://www.octopus.com/blog/blog-title-part-two.
 
-Note, blog posts are organized in the repo into year-month folders, and you will need to include this in your link.
+Note, blog posts are organized in the repo into year-month folders, and you need to include this in your link.
 
 ### Linking to sections
 
@@ -197,7 +198,7 @@ Octopus can be installed on these versions of `[Windows Server](docs/installatio
 
 This will link to https://octopus.com/docs/installation/requirements#windows-server
 
-If you'd like to control the anchor text (Perhaps to ensure it doesn't change even if the title does), use the following syntax:
+If you'd like to control the anchor text (to ensure it doesn't change even if the title does), use the following syntax:
 
 ~~~
 ## Windows Server {#windows-server}
@@ -252,7 +253,7 @@ If no language is defined, highlightjs will guess the language and it regularly 
 
 ## Call-outs
 
-To create a call-out that draws the readers attention, use the following syntax:
+To create a call-out that draws the reader's attention, use the following syntax:
 
 ```md
 :::warning
@@ -295,7 +296,7 @@ When you use an include file in this way, you only need to update the text in on
 
 See [Octopus snippets](octopus-snippets.md) for more information on this topic and a library of ready to use snippets across repos.
 
-### Docker images
+### Referencing Docker images
 
 When referencing docker images, use the syntax:
 
@@ -321,7 +322,7 @@ Will be replaced with:
 
 ## Link to the Octopus Guides
 
-The Octopus Guides combine content to allow users to specify their entire CI/CD pipeline and access a guide for their specific pipeline. It is sometimes helpful to link to the guides, with specific options predefined, rather than the default options.
+The Octopus Guides combine content to allow users to specify their entire CI/CD pipeline and access a guide for their specific pipeline. It is sometimes helpful to link to the guides with specific options predefined rather than the default options.
 
 You can create the links to use by adding query parameters to the URL for the guides `https://www.octopus.com/docs/guides`:
 
@@ -347,7 +348,7 @@ https://octopus.com/docs/guides?application=PHP&buildServer=TeamCity&destination
 
 ## Redirects
 
-If you delete or rename a file in either the docs or blog repos, you need to add a redirect for that file otherwise publishing will fail.
+If you delete or rename a file in either the docs or blog repos, you must add a redirect for that file otherwise publishing will fail.
 
 Redirects are added to `docs/redirects.txt` and `blog/redirects.txt` files respectively.
 
