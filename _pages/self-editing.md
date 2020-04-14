@@ -11,7 +11,7 @@ Most of what we publish and share with the world is edited, but not all of it is
 
 1. Done doesn't mean deployed when it comes to your first draft.
 
-   The first draft is typically where you'll explore your ideas and make your points. The second and third drafts are where you refine your points and craft a message that people will find helpful and enjoy reading. Give yourself some time between drafts so that content feels fresh when you return it and you can review it with new eyes.
+   The first draft is typically where you'll explore your ideas and make your points. The second and third drafts are where you refine your points and craft a message that people will find helpful and enjoy reading. Give yourself some time between drafts so that content feels fresh when you return to it and you can review it with new eyes.
 
 1. Delete anything that doesn't add to your point.
 
@@ -19,7 +19,7 @@ Most of what we publish and share with the world is edited, but not all of it is
 
 1. Turn on your spell checker.
 
-   Typos happen to the best of us, but there's a direct correlation between the number of silly mistakes in a post and the restraint the editor will exercise when going through the rest of your work. If typos slip through into the final copy, they do impact the reader's confidence in the content and the people who published it. So it's important to make sure we keep them to a minimum. 
+   Typos happen to the best of us, but there's a direct correlation between the number of silly mistakes in a post and the restraint the editor will exercise when going through the rest of your work. If typos slip through into the final copy, they do impact the reader's confidence in the content and the people who published it. So it's important to make sure we keep typos to a minimum. 
 
    We have a corporate Grammarly account (details are with the software policies). Grammarly isn't always right, but its suggestions are right more than they're wrong, so it is a good idea to run your post through Grammarly.
 
