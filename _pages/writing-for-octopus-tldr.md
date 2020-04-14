@@ -6,7 +6,7 @@ permalink: writing-at-octopus-tldr
 family: language
 ---
 
-This pages includes the basics you need to get started, as does the [basic blog template](https://github.com/OctopusDeploy/blog/blob/master/templates/basic-template.md). More detailed instructions are available in the rest of this [guide](https://octopusdeploy.github.io/OctoStyle/).
+This page includes the basics you need to get started, as does the [basic blog template](https://github.com/OctopusDeploy/blog/blob/master/templates/basic-template.md). More detailed instructions are available in the rest of this [guide](https://octopusdeploy.github.io/OctoStyle/).
 
 ## Markdown
 
@@ -47,7 +47,7 @@ Use images and screenshots to help illustrate your point, but don't rely on imag
 - The procedure jumps from one place in the UI to another.
 - You want to reassure them they’re in the right place.
 
-For more information see [working with images](images.md).
+For more information, see [working with images](images.md).
 
 ## Proofread
 

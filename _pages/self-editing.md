@@ -25,7 +25,7 @@ Most of what we publish and share with the world is edited, but not all of it is
 
 1. White space is your friend.
 
-   Dense paragraph after dense paragraph of text is intimidating and will put readers off. Try to break up big paragraphs by grouping similar thoughts into smaller paragraphs, if you're listing options or documenting steps, use bullet points or numbered lists instead.
+   Dense paragraph after dense paragraph of text is intimidating and will put readers off. Try to break up big paragraphs by grouping similar thoughts into smaller paragraphs. If you're listing options or documenting steps, use bullet points or numbered lists instead.
 
    More white space makes text more approachable.
 
@@ -41,6 +41,6 @@ Most of what we publish and share with the world is edited, but not all of it is
 
 1. Review the edits.
 
-    Your blog posts will be edited before they goes live. We're aiming for a consistent voice and tone with all the blog posts, so some of the edits will likely be for consistency with other posts.
+    Your blog posts will be edited before they go live. We're aiming for a consistent voice and tone with all the blog posts, so some of the edits will likely be for consistency with other posts.
 
     Review the changes that are made, and if you notice any recurring patterns to the edits, take note as this will help you avoid similar edits in the future. If you're uncertain about why some edits have been made, or you disagree with the edits, ping the person who made the edits to discuss the changes. The editing process is designed to make the posts read as well as they can, but we don't want that to alter your meaning or make you feel like you're being made to say something you didn't mean.

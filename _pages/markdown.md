@@ -133,7 +133,7 @@ Which is rendered as:
 1. Item 1
 2. Item 2
 
-You can nest lists, by adding three spaces before the nested list items.
+You can nest lists by adding three spaces before the nested list items.
 
 ```md
 1. Item 1
@@ -190,7 +190,7 @@ This links to https://www.octopus.com/blog/blog-title-part-two.
 
 Note, blog posts are organized in the repo into year-month folders, and you need to include this in your link.
 
-### Linking to sections
+### Link to sections
 
 To link to a specific section within a document, add the section heading as an anchor and replace the spaces with hyphens:
 
@@ -249,7 +249,7 @@ Snippets are highlighted by Highlight.js
 | python       | python       |
 | text         | text           |
 
-If no language is defined, highlightjs will guess the language and it regularly gets it wrong.
+If no language is defined, highlightjs will guess the language, and it regularly gets it wrong.
 
 ## Call-outs
 
@@ -288,7 +288,7 @@ To create reusable text that is automatically added to any document that referen
 The latest version of Octopus Deploy is 2020.1
 ```
 
-If the complete filename is `latest-version.include.md`, to include the text in other documents use the following everywhere you want the text to be included:
+If the complete filename is `latest-version.include.md`, to include the text in other documents, use the following everywhere you want the text to be included:
 
 `!include <latest-version>`
 
@@ -322,7 +322,7 @@ Will be replaced with:
 
 ## Link to the Octopus Guides
 
-The Octopus Guides combine content to allow users to specify their entire CI/CD pipeline and access a guide for their specific pipeline. It is sometimes helpful to link to the guides with specific options predefined rather than the default options.
+The Octopus Guides combine content to allow users to specify their entire CI/CD pipeline and access a guide for their specific pipeline. It is sometimes helpful to link to the guides with specific options pre-defined rather than the default options.
 
 You can create the links to use by adding query parameters to the URL for the guides `https://www.octopus.com/docs/guides`:
 

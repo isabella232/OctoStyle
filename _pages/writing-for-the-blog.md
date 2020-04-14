@@ -22,7 +22,7 @@ We have five main categories that we blog about:
 
 ## Principles
 
-Writing is hard, and we all have different voices, but we want the experience of reading the blog to be consistent and useful. All of the posts are edited before they're published, but the following principles are designed to help guide the voice we use:
+Writing is hard, and we all have different voices, but we want the experience of reading the blog to be consistent and useful. All the posts are edited before they're published, but the following principles are designed to help guide the voice we use:
 
 1. The posts we write are useful and informative to our target audience and demonstrate our domain expertise.
 
