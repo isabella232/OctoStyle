@@ -8,7 +8,7 @@ family: language
  
 The Octopus blog is one of the ways we talk to our customers and help future customers discover Octopus. We do this by publishing posts that resonate with our users (and potential users) on topics of interest to them that intersect with the problems Octopus solves.
 
-This page provides some tips for writing for the Octopus blog. Nothing on this page is absolute, it's not a style guide, and it will continue to grow over time.
+This page provides some tips for writing for the Octopus blog.
 
 ## What to write
 
@@ -84,22 +84,8 @@ Writing is hard, and we all have different voices, but we want the experience of
 
     Octopus isn't the only thing we write about. We love Octopus, and we hope our users do too, but Octopus isn't the only tool that can solve our users' problems, and sometimes, it's not even the right tool, but that shouldn't stop us sharing useful content with our users.
 
-## Images
-
-The marketing team works with the graphics team to make sure every posts has an engaging header image that is displayed at the top of the post and can be use for social sharing.
-
-If you'd like to use screenshots or other images, here are a couple of tips to keep in mind:
-
-1. Don't over rely on screenshots.
-
-    Screenshots can help guide readers to the right place in the UI or reassure them that they're on the right track, but on their own, they often lack context and readers can be left wondering what exactly they're supposed to be looking at. When you include screenshots make sure you provide enough context that the user understands what exactly the screenshot demonstrates.
-
-1. Consider if a screenshot is the right tool for the job.
-
-    Screenshots are easy to capture, whereas code blocks can be a lot more work, however, it's good to consider what will be most helpful to the reader. If there's a chance your reader will want to copy commands from a screenshot, it's more helpful to copy the commands into a code block.
-
-1. Check the rights on images you source online.
-
-     If you want to include an image you find online in one of your blog posts, check the rights for the image. Not all images can be reused for free without the owner's permission and some images may require attribution.
-
 1. No comics or funny Gifs.
+
+    Humor is difficult and what might seem like a bit of fun to one reader, can be interrupted a completely different way by other readers. This is a line we don't need to walk.
+
+    For tips on including images, see [working with images](images.md).
