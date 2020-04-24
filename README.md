@@ -1,2 +1,3 @@
 # octostyle
-The temporary [Octopus style guide](https://octopusdeploy.github.io/OctoStyle/)
+
+Source for the  [Octopus style guide](https://style.octopus.com).
