@@ -28,7 +28,7 @@ The following are not capitalized (unless at the start of a sentence):
 
 ## Match the UI
 
-The only exception to the rule is to use the same style as the UI you're documenting. For instance, deployment target is not a proper and should not normally be capitalized, however, if you are instructing a user to click a UI element in the Octopus Web Portal and the UI label is capitalized or all caps, you should mirror the style from the UI.
+The only exception to the rule is to use the same style as the UI you're documenting. For instance, deployment target is not a proper noun and should not normally be capitalized, however, if you are instructing a user to click a UI element in the Octopus Web Portal and the UI label is capitalized or all caps, you should mirror the style from the UI.
 
 ## Titles
 
