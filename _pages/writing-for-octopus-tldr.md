@@ -43,15 +43,15 @@ Use sentence case for titles. Sentence case uses the same capitalization rules a
 
 Use images and screenshots to help illustrate your point, but don't rely on images alone to convey your meaning. Use a screenshot if:
 
-- They might struggle to locate an item in the UI.
+- The user might struggle to locate an item in the UI.
 - The procedure jumps from one place in the UI to another.
-- You want to reassure them they’re in the right place.
+- You want to reassure the user they’re in the right place.
 
 For more information, see [working with images](images.md).
 
 ## Proofread
 
-Proofread your work to make sure it's error free and validates with Docsync. Octopus has a Grammarly account that anybody can use that can help with this.
+Proofread your work to make sure it's error free and validates with Docsync. Octopus has a Grammarly account that anybody can use that can help with clearing up simple mistakes.
 
 ## Create a PR
 
