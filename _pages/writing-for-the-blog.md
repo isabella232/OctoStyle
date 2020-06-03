@@ -76,6 +76,8 @@ Writing is hard, and we all have different voices, but we want the experience of
 
     **Conclusion**: Close off the post by restating the main points of the post, share any closing thoughts, and invite feedback.
 
+    Include headers that state what each section is about for readers who scan posts or want to jump back to a particular section.
+
 1. We're writing for an international audience.
 
     Our customers are everywhere. Some of them are native English speakers, but many of them are not. We avoid colloquialisms that would likely confuse them, and we use US English. 
