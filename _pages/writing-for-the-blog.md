@@ -78,7 +78,9 @@ Writing is hard, and we all have different voices, but we want the experience of
 
 1. We're writing for an international audience.
 
-    Our customers are everywhere. Some of them are native English speakers, but many of them are not. We avoid colloquialisms that would likely confuse them, and we use US English.
+    Our customers are everywhere. Some of them are native English speakers, but many of them are not. We avoid colloquialisms that would likely confuse them, and we use US English. 
+
+    Our posts are written in an informal tone, but we keep the language clear and concise (see above).
 
 1. We're not Octo-obsessed.
 
