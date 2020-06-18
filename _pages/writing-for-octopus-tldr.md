@@ -65,7 +65,7 @@ These are some of the common validation errors that will cause you PR to fail. I
 
 ### YAML front matter
 
-If the YAML front matter is missing entirely or in part validation will fail.
+If the YAML front matter is missing entirely or in part validation will fail. See the [basic template](https://github.com/OctopusDeploy/blog/tree/master/templates/basic-template.md) for details.
 
 ### File or directory names are not all lowercase
 
