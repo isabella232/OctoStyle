@@ -26,7 +26,7 @@ Make sure any information that is conveyed in the screenshot is done so to suppl
 
 1. Use Google Chrome to take your screenshots.
 
-1. Set the DPI for the image to 96.
+1. Set the DPI for the image to 96, and keep the width under 1000px.
 
 1. Don't include the browser window.
 
@@ -60,7 +60,7 @@ Make sure any information that is conveyed in the screenshot is done so to suppl
 
     If want to include a screenshot that extends past the viewable window, use a tool like Snagit to capture a scrolling screenshot.
 
-1. Don't include the help window.
+1. Don't include the help window in the Octopus Web Portal.
 
 	The help text is incredibly useful in the Octopus Web Portal, but it will make screenshots look crowded.
 
