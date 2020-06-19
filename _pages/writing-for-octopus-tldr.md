@@ -16,7 +16,7 @@ The following is the minimum Markdown you need:
 
 1. `##` H2 Heading, `###` H3 heading.
 
-1. Use `**bold**` for feature names and UI elements, use `*italics*` to add emphasis, and use back ticks for parameters and file paths:
+1. Use `**bold**` for tool/feature names and UI elements, use `*italics*` to add emphasis, and use back ticks for parameters and file paths:
 ~~~
 `~/.ssh/id_rsa.pub`
 ~~~
@@ -56,3 +56,21 @@ Proofread your work to make sure it's error free and validates with Docsync. Oct
 ## Create a PR
 
 When your work is ready, create a PR so the work can be reviewed, edited, scheduled (if it's for the blog) and merged.
+
+## Common validation errors
+
+We use an in-house tool to convert the docs and the blog from markdown to HTML for publication on the web. 
+
+These are some of the common validation errors that will cause you PR to fail. If you see the build has failed check the following:
+
+### YAML front matter
+
+If the YAML front matter is missing entirely or in part validation will fail. See the [basic template](https://github.com/OctopusDeploy/blog/tree/master/templates/basic-template.md) for details.
+
+### File or directory names are not all lowercase
+
+Check you have only used lowercase characters, dashes (-) and full stops (.) in your filenames.
+
+### Broken links
+
+Validation will fail if links that don't resolve are include. Check the links in your PR.
