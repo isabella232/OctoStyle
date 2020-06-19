@@ -2,7 +2,7 @@
 layout: page
 title: Self editing
 permalink: self-editing
-order: 33
+order: 50
 family: language
 ---
 

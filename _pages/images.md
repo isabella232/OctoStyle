@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Working with images
-order: 40
+order: 60
 permalink: images
 family: language
 ---

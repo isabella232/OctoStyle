@@ -2,7 +2,7 @@
 layout: page
 title: Writing tips for the blog
 permalink: writing-tips-for-the-blog
-order: 32
+order: 40
 family: language
 ---
  
