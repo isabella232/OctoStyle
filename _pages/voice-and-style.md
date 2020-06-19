@@ -15,6 +15,7 @@ Not everybody who interacts with Octopus Deploy or reads our words is a native E
 - Use simple sentence structures to avoid overloading the reader with too much information all at once.
 - Avoid overly formal language or an academic style, and use simple, declarative language.
 - Avoid slang, colloquialisms, and other terms the reader might not be familiar with.
+- Use modern language. Language evolves over time, and terms that were once common have fallen out of use. Be deliberate about the language you choose and where terms have changed, don't cling to old terms *just because*.
 
 ## Style
 
