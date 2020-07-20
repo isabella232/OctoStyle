@@ -88,7 +88,7 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
 
     Posts on octopus.com which make use of the `!toc` (table of contents) markdown won't work on dev.to.
 
-    The simplest option is to remove this markdown. For longer posts (for example *ultimate guides to X* ) it can be beneficial to manually add a table of contents using a mix of standard markdown and html.
+    The simplest option is to remove this markdown. For longer posts (for example *ultimate guides to X*) it can be beneficial to manually add a table of contents using a mix of standard markdown and html.
 
     If you wish to include this, then add a header and a bullet point list of the main sections you wish to highlight. For example:
 
