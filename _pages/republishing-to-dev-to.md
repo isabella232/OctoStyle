@@ -52,7 +52,7 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
 
    It's useful to keep checking what the republished post will look like. Switching between this and the editor is a good way to check the post looks as you expect it.
 
-1. Upload any images, or change image links to full url paths.
+1. Upload any images, or change markdown and image links to full url paths.
 
    Any images from the original post won't resolve in dev.to unless you upload them. Preferably, look for any image files in the markdown and change them to their full path. For example:
 
@@ -65,6 +65,8 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
    ```md
    ![Project sequential deployment process](https://i.octopus.com/blog/2020-07/convert-to-rolling-deployments/project-sequential-deployment-process.png)
    ```
+
+   For the same reason, any links to other blog posts where you use the relative path to a markdown file should also be modified to the full url path.
 
 1. Remove or change hints, warnings, error and success callouts.
 
