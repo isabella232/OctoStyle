@@ -56,56 +56,78 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
 
    Any images from the original post won't resolve in dev.to unless you upload them. Preferably, look for any image files in the markdown and change them to their full path. For example:
 
-   ```
+   ```md
    ![Project sequential deployment process](project-sequential-deployment-process.png)
    ```
 
    becomes:
 
-   ```
+   ```md
    ![Project sequential deployment process](https://i.octopus.com/blog/2020-07/convert-to-rolling-deployments/project-sequential-deployment-process.png)
    ```
 
 1. Remove or change hints, warnings, error and success callouts.
 
-    Posts on octopus.com which make use of any of the following callouts won't work on dev.to:
-    - hint
-    - warning
-    - error
-    - success
+   Posts on octopus.com which make use of any of the following callouts won't work on dev.to:
+   - hint
+   - warning
+   - error
+   - success
 
-    The simplest option is simply to remove them. Alternatively, you can edit the post and add a markdown block-quote. For example:
+   The simplest option is simply to remove them. Alternatively, you can edit the post and add a markdown block-quote. For example:
+
+   ```md
+   > This text will appear as a block quote.
+   ```
+
+   which is rendered as:
+
+   > This text will appear as a block quote.
+
+1. Remove any use Navigation paths using the `{{Navigate>Here}}` syntax.
+
+   Navigation paths in dev.to won't work. For example, if you kept the following syntax:
+
+   ```md
+   Go to the runbook process from the {{Operations>Runbooks}} section. 
+   ```
+
+   The Preview editor in dev.to will complain that Liquid variables aren't enabled.
+
+   The simplest thing to do is to convert them manually. In the example above it would look like this:
 
     ```md
-    > This text will appear as a block quote.
+    Go to the runbook process from the Operations ➜ Runbooks section.
     ```
+    
+   This would render as:
 
-    which is rendered as:
+   Go to the runbook process from the Operations ➜ Runbooks section.
 
-    > This text will appear as a block quote.
 
 1. Remove the `!toc` from the start of the post.
 
-    Posts on octopus.com which make use of the `!toc` (table of contents) markdown won't work on dev.to.
+   Posts on octopus.com which make use of the `!toc` (table of contents) markdown won't work on dev.to.
 
-    The simplest option is to remove this markdown. For longer posts (for example *ultimate guides to X*) it can be beneficial to manually add a table of contents using a mix of standard markdown and html.
+   The simplest option is to remove this markdown. For longer posts (for example *ultimate guides to X*) it can be beneficial to manually add a table of contents using a mix of standard markdown and html.
 
-    If you wish to include this, then add a header and a bullet point list of the main sections you wish to highlight. For example:
+   If you wish to include this, then add a header and a bullet point list of the main sections you wish to highlight. For example:
 
-    ```md
-      ## In this post
-      * [The application](#the-application)
-      * [Sequential deployment process](#sequential-deployments)
-      * [Convert to a rolling deployment process](#convert-to-rolling-deployment)
-        * [Scale up the servers](#scale-up-the-servers)
-        * [Choosing a load balancer](#choosing-a-load-balancer)
-        * [Load balancer target pools](#load-balancer-target-pools)
-        * [Create a new project](#create-a-new-project)
-        * [Convert the PetClinic deployment process](#convert-the-petclinic-deployment-process)
-        * [Switch over to new infrastructure](#switch-over-to-new-infrastructure)
-        * [Clean-up](#clean-up)
-      * [Conclusion](#conclusion)
-    ```
+   ```md
+   ## In this post
+   * [The application](#the-application)
+   * [Sequential deployment process](#sequential-deployments)
+   * [Convert to a rolling deployment process](#convert-to-rolling-deployment)
+     * [Scale up the servers](#scale-up-the-servers)
+     * [Choosing a load balancer](#choosing-a-load-balancer)
+     * [Load balancer target pools](#load-balancer-target-pools)
+     * [Create a new project](#create-a-new-project)
+     * [Convert the PetClinic deployment process](#convert-the-petclinic-deployment-process)
+     * [Switch over to new infrastructure](#switch-over-to-new-infrastructure)
+     * [Clean-up](#clean-up)
+   * [Conclusion](#conclusion)
+   ```
+
    which is rendered as:
 
    ## In this post
@@ -134,17 +156,17 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
 
 1. Review the post for any newline characters between number or bulleted-lists.
 
-    It appears that dev.to is less forgiving than octopus.com when there are any newline characters present between number or bulleted lists. Usually, removing the offending newline CR;LF characters corrects this.
+   It appears that dev.to is less forgiving than octopus.com when there are any newline characters present between number or bulleted lists. Usually, removing the offending newline CR;LF characters corrects this.
 
 1. Optionally, add an original post link to the end of the post.
 
-    This tends to be personal preference, but it's usually a good idea to add the following markdown to the end of the republished post:
+   This tends to be personal preference, but it's usually a good idea to add the following markdown to the end of the republished post:
 
     ```md
    _This post was originally published at [octopus.com](https://link-to-the-octopus-com-post)._
     ```
-    where `https://link-to-the-octopus-com-post` is the canonical url of the post being republished.
+   where `https://link-to-the-octopus-com-post` is the canonical url of the post being republished.
 
 1. Publish your post on dev.to
 
-   If you have set the header of the post as `published: false`, change this value to `true`. Alternativey, if you you have edited the post in one sitting, hit **Save Changes** and your post will be published on dev.to
+   If you have set the header of the post as `published: false`, change this value to `true`. Alternativey, if you you have edited the post in one sitting, hit **Save Changes** and your post will be published on dev.to.
