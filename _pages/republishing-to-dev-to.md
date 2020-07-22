@@ -18,7 +18,7 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
    
    Next, copy the contents of the clipboard below the dev.to header information:
 
-   ![Republish copy content](republishing-post-copy-content.png "width=500")
+   <img src="{{site.url }}/assets/img/republishing-post-copy-content.png" />
 
 1. Edit the dev.to post header.
 
@@ -46,7 +46,7 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
 
    After you have edited the new post's header, you can remove the existing one. Optionally, remove the main octopus.com image which is typically at the top of the original post too. This prevents having the same image appear twice in quick succession:
 
-   ![Remove header image](republishing-post-remove-header-image.png "width=500")
+   <img src="{{site.url }}/assets/img/republishing-post-remove-header-image.png" />
 
 1. Use the dev.to review option while editing.
 
