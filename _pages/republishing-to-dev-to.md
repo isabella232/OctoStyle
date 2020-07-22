@@ -6,15 +6,15 @@ order: 70
 family: language
 ---
 
-Sometimes we want to republish blog posts to the Octopus account on [dev.to](https://dev.to/octopus/). However, some of the techniques used in this style guide, and therefore our posts, aren't supported in dev.to. There are a number of steps you can take to ensure a smooth migration for your post. This section outlines a step-by-step guide to republish an article to dev.to.
+Sometimes we want to republish blog posts to the Octopus account on [dev.to](https://dev.to/octopus/). However, some of the techniques used in this style guide, and therefore our posts, aren’t supported in dev.to. There are a number of steps you can take to ensure a smooth migration for your post. This section outlines a step-by-step guide to republish an article to dev.to.
 
 1. Choose the article you want to republish and find its markdown page in GitHub.
 
-   Select the markdown page for the article (it's usually `index.md`). In GitHub, choose the **Raw** contents of the file, and copy everything to your system clipboard - including the headers at the top of the page.
+   Select the markdown page for the article (it’s usually `index.md`). In GitHub, choose the **Raw** contents of the file, and copy everything to your system clipboard - including the headers at the top of the page.
 
 1. Copy the article content into a new post in dev.to 
 
-   On the dev.to site, choose **Write a post** in the top-right corner of the page. Remember to switch the drop-down of *write a new post* from **Personal** to **Octopus** (this can be done later so don't worry if you forget). 
+   On the dev.to site, choose **Write a post** in the top-right corner of the page. Remember to switch the drop-down of *write a new post* from **Personal** to **Octopus** (this can be done later so don’t worry if you forget). 
    
    Next, copy the contents of the clipboard below the dev.to header information:
 
@@ -29,7 +29,7 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
    - `title` - this can be copied from the existing post.
    - `published` - this can be left as `false` while you are editing, and then switch the value to `true` when you are happy with the post.
    - `description` - this can be copied from the existing post.
-   - `tags` - these are a comma separated list in dev.to, and while they may match some of the Octopus tags, it's worth doing some homework to find which ones are appropriate for the post. Some sensible tags are likely to be:
+   - `tags` - these are a comma separated list in dev.to, and while they may match some of the Octopus tags, it’s worth doing some homework to find which ones are appropriate for the post. Some sensible tags are likely to be:
      - octopus
      - devops
      - deployment
@@ -42,19 +42,19 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
    In addition to these, add the following new header item:
    - `canonical_url` - this is the URL from octopus.com which dev.to will add to the top of the republished post to link back to the original post.
 
-1. Remove the original post's header information.
+1. Remove the original post’s header information.
 
-   After you have edited the new post's header, you can remove the existing one. Optionally, remove the main octopus.com image which is typically at the top of the original post too. This prevents having the same image appear twice in quick succession:
+   After you have edited the new post’s header, you can remove the existing one. Optionally, remove the main octopus.com image which is typically at the top of the original post too. This prevents having the same image appear twice in quick succession:
 
    <img src="{{site.url }}/assets/img/republishing-post-remove-header-image.png" />
 
 1. Use the dev.to review option while editing.
 
-   It's useful to keep checking what the republished post will look like. Switching between this and the editor is a good way to check the post looks the way you expect.
+   It’s useful to keep checking what the republished post will look like. Switching between this and the editor is a good way to check the post looks the way you expect.
 
 1. Upload any images, or change markdown and image links to full URL paths.
 
-   Any images from the original post won't resolve in dev.to unless you upload them. Preferably, look for any image files in the markdown and change them to their full path. For example:
+   Any images from the original post won’t resolve in dev.to unless you upload them. Preferably, look for any image files in the markdown and change them to their full path. For example:
 
    ```md
    ![Project sequential deployment process](project-sequential-deployment-process.png)
@@ -70,7 +70,7 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
 
 1. Remove or change hints, warnings, error, and success callouts.
 
-   Posts on octopus.com which make use of any of the following callouts won't work on dev.to:
+   Posts on octopus.com which make use of any of the following callouts won’t work on dev.to:
    - hint
    - warning
    - error
@@ -78,7 +78,7 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
 
    The simplest option is simply to remove them. Alternatively, you can edit the post and add a markdown block-quote. For example:
 
-   ```md
+   ```
    > This text will appear as a block quote.
    ```
 
@@ -86,19 +86,19 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
 
    > This text will appear as a block quote.
 
-1. Remove any use navigation paths using the `{{Navigate>Here}}` syntax.
+1. Remove any use navigation paths using the {% raw %} {{Navigate,Here}} {% endraw %} syntax.
 
-   Navigation paths in dev.to won't work. For example, if you kept the following syntax:
+   Navigation paths in dev.to won’t work. For example, if you kept the following syntax:
 
-   ```md
-   Go to the runbook process from the {{Operations>Runbooks}} section. 
+   ```
+   Go to the runbook process from the {% raw %}{{Operations,Runbooks}}{% endraw %} section. 
    ```
 
-   The preview editor in dev.to will complain that Liquid variables aren't enabled.
+   The preview editor in dev.to will complain that Liquid variables aren’t enabled.
 
    The simplest thing to do is to convert them manually. In the example above it would look like this:
 
-    ```md
+    ```
     Go to the runbook process from the Operations ➜ Runbooks section.
     ```
     
@@ -109,7 +109,7 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
 
 1. Remove the `!toc` from the start of the post.
 
-   Posts on octopus.com which make use of the `!toc` (table of contents) markdown won't work on dev.to.
+   Posts on octopus.com which make use of the `!toc` (table of contents) markdown won’t work on dev.to.
 
    The simplest option is to remove this markdown. For longer posts (for example *ultimate guides to X*) it can be beneficial to manually add a table of contents using a mix of standard markdown and HTML.
 
@@ -162,7 +162,7 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
 
 1. Optionally, add an original post link to the end of the post.
 
-   This tends to be personal preference, but it's usually a good idea to add the following markdown to the end of the republished post:
+   This tends to be personal preference, but it’s usually a good idea to add the following markdown to the end of the republished post:
 
     ```md
    _This post was originally published at [octopus.com](https://link-to-the-octopus-com-post)._
