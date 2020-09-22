@@ -16,7 +16,7 @@ The following are capitalized:
 - Octopus Cloud
 - Workers
 - Spaces
-- Operations Runbooks
+- Tentacles
 
 The following are not capitalized (unless at the start of a sentence):
 
