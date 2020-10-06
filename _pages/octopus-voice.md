@@ -121,7 +121,7 @@ If something can be deleted without altering the meaning or tone of the text, de
 
 It’s common to make the same point multiple times in a first draft as you find better ways of expressing your idea. Remove the less effective sentence.
 
-Avoid repetition ~or saying the same thing twice in a different way~ unless you’re doing it to reinforce a point.
+Avoid repetition ~~or saying the same thing twice in a different way~~ unless you’re doing it to reinforce a point.
 
 ### Word order
 
