@@ -16,6 +16,7 @@ Both the [Octopus blog](https://github.com/OctopusDeploy/blog) and the [Octopus 
 - [Formating text](#formating-text)
 - [Images](#images)
 - [Lists](#lists)
+- [Tables](#tables)
 - [Links](#links)
 - [Navigation paths](#navigation-paths)
 - [Code samples](#code-samples)
@@ -173,6 +174,19 @@ A break in the list.
 <li>Item 3</li>
 <li>Item 4</li>
 </ol>
+
+## Tables
+
+Tables are written in the following following way:
+
+```
+|  Header 1 | Header 2 | Header 3 | Header 4 | Header 4 |
+|---|---|---|---|---|
+| Row 1 Cell 1 | Cell 2 | Cell 3 | Cell 4 | Cell 4 |
+| Row 2 Cell 1 | Cell 2 | Cell 3 | Cell 4 | Cell 4 |
+```
+
+There are generators online you can use to make this process a bit easier, for instance, [Table generator](https://www.tablesgenerator.com/markdown_tables).
 
 ## Links
 
