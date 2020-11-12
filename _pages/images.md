@@ -26,6 +26,12 @@ Make sure any information that is conveyed in the screenshot is done so to suppl
 
 1. Use Google Chrome to take your screenshots.
 
+1. Give the image file a descriptive name, i.e., variable-editor.png 
+
+1. Provide alt text for accessibility.
+
+	![A brief description of the image](images/variable-editor.png)
+
 1. Set the DPI for the image to 96, and keep the width under 1000px.
 
 1. Don't include the browser window.
