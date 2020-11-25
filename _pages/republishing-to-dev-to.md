@@ -86,7 +86,7 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
 
    > This text will appear as a block quote.
 
-1. Remove any use navigation paths using the {% raw %} {{Navigate,Here}} {% endraw %} syntax.
+1. Remove any use of navigation paths using the {% raw %} {{Navigate,Here}} {% endraw %} syntax.
 
    Navigation paths in dev.to won’t work. For example, if you kept the following syntax:
 
