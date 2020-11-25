@@ -33,7 +33,7 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
      - octopus
      - devops
      - deployment
-   - `cover_image` - you can use the **Upload image** option at the top of the editor to upload the main image from the existing post, or preferably provide the full UrL from octopus.com. For example:
+   - `cover_image` - you can use the **Upload image** option at the top of the editor to upload the main image from the existing post, or preferably provide the full URL from octopus.com. For example:
 
       ```yml
       cover_image: https://i.octopus.com/blog/2020-01/ultimate-guide-to-rolling-deployments/rolling-deployments.png
