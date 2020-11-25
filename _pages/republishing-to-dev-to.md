@@ -171,4 +171,4 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
 
 1. Publish your post on dev.to
 
-   If you have set the header of the post as `published: false`, change this value to `true`. Alternatively, if you you have edited the post in one sitting, hit **Save Changes** and your post will be published on dev.to.
+   If you have set the header of the post as `published: false`, change this value to `true`. Alternatively, if you have edited the post in one sitting, hit **Save Changes** and your post will be published on dev.to.
