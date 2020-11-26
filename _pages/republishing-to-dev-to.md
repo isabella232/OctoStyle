@@ -33,7 +33,7 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
      - octopus
      - devops
      - deployment
-   - `cover_image` - you can use the **Upload image** option at the top of the editor to upload the main image from the existing post, or preferably provide the full UrL from octopus.com. For example:
+   - `cover_image` - you can use the **Upload image** option at the top of the editor to upload the main image from the existing post, or preferably provide the full URL from octopus.com. For example:
 
       ```yml
       cover_image: https://i.octopus.com/blog/2020-01/ultimate-guide-to-rolling-deployments/rolling-deployments.png
@@ -86,7 +86,7 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
 
    > This text will appear as a block quote.
 
-1. Remove any use navigation paths using the {% raw %} {{Navigate,Here}} {% endraw %} syntax.
+1. Remove any use of navigation paths using the {% raw %} {{Navigate,Here}} {% endraw %} syntax.
 
    Navigation paths in dev.to won’t work. For example, if you kept the following syntax:
 
@@ -171,4 +171,4 @@ Sometimes we want to republish blog posts to the Octopus account on [dev.to](htt
 
 1. Publish your post on dev.to
 
-   If you have set the header of the post as `published: false`, change this value to `true`. Alternatively, if you you have edited the post in one sitting, hit **Save Changes** and your post will be published on dev.to.
+   If you have set the header of the post as `published: false`, change this value to `true`. Alternatively, if you have edited the post in one sitting, hit **Save Changes** and your post will be published on dev.to.

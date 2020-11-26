@@ -90,6 +90,6 @@ Writing is hard, and we all have different voices, but we want the experience of
 
 1. No comics or funny Gifs.
 
-    Humor is difficult and what might seem like a bit of fun to one reader, can be interrupted a completely different way by other readers. This is a line we don't need to walk.
+    Humor is difficult and what might seem like a bit of fun to one reader, can be interpreted a completely different way by other readers. This is a line we don't need to walk.
 
     For tips on including images, see [working with images](images.md).

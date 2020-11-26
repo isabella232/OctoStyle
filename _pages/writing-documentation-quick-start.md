@@ -24,7 +24,7 @@ You should structure documentation as follows:
 
    Provide an introduction that explains what the documentation covers and provide some sample scenarios that highlight the main use cases for the feature being documented.
 
-   **Note**: Edge cases should be included in the reference/advance use cases section at the end. Avoid adding edge cases to the main body of the text as they can confuse people about the intended purpose of the feature.
+   **Note**: Edge cases should be included in the reference/advanced use cases section at the end. Avoid adding edge cases to the main body of the text as they can confuse people about the intended purpose of the feature.
 
 2. Procedural.
 
@@ -40,7 +40,7 @@ You should structure documentation as follows:
 
    **Reference material**
 
-    Tables provide an easy way for users to scan lists parameters of parameters for the ones they need. If the reference material is extensive, add it to a child page and link to it.
+    Tables provide an easy way for users to scan lists of parameters for the ones they need. If the reference material is extensive, add it to a child page and link to it.
 
     If there are common troubleshooting steps users might need to perform, list them here.
 
@@ -50,7 +50,7 @@ You should structure documentation as follows:
 
 ## Adding new page vs. editing an old page
 
-As a rule of thumb, we should aspire to make each explain something that will help the reader achieve a goal.
+As a rule of thumb, we should aspire to make each page explain something that will help the reader achieve a goal.
 
 In some scenarios, there might be multiple options and including them all on a single page might give the reader scroll fatigue or make it difficult to jump between the pieces they need. In such cases, it might be better to include the options on child pages.
 
