@@ -204,7 +204,7 @@ This links to https://www.octopus.com/blog/blog-title-part-two.
 
 Note, blog posts are organized in the repo into year-month folders, and you need to include this in your link.
 
-### Link to sections
+### Anchor links
 
 To link to a specific section within a document, add the section heading as an anchor and replace the spaces with hyphens:
 
@@ -217,6 +217,8 @@ If you'd like to control the anchor text (to ensure it doesn't change even if th
 ~~~
 ## Windows Server {#windows-server}
 ~~~
+
+Special characters will break the anchor text, so don't include special characters in the anchor.
 
 ## Navigation paths
 
