@@ -34,6 +34,8 @@ Make sure any information that is conveyed in the screenshot is done so to suppl
 
 1. Set the DPI for the image to 96, and keep the width under 1000px.
 
+1. Aim to keep the image file size below 200kb.  
+
 1. Don't include the browser window.
 
     When you take screenshots of web pages, don't include the browser window "chrome", the stuff around the page. Just include the page itself.
