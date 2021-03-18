@@ -73,4 +73,4 @@ Check you have only used lowercase characters, dashes (-) and full stops (.) in 
 
 ### Broken links
 
-Validation will fail if links that don't resolve are include. Check the links in your PR.
+Validation will fail if links that don't resolve are included. Check the links in your PR.
