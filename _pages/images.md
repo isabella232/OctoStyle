@@ -28,6 +28,8 @@ Make sure any information that is conveyed in the screenshot is done so to suppl
 
 1. Give the image file a descriptive name, i.e., variable-editor.png 
 
+1. Only use lowercase characters in the file name (docsync validation fails if uppercase characters are present).
+
 1. Provide alt text for accessibility.
 
 	![A brief description of the image](images/variable-editor.png)
