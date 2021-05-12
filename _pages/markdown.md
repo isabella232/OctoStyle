@@ -84,7 +84,7 @@ Use `##` to create h2 headers and `###` to create h3 headers.
 
 The first header you include on a page must be a h2 header. The title of the page comes from the title in the YAML block.
 
-## Formating text
+## Formatting text
 
 Bold text with `**` on both sides of text to create `**bold text**`: **bold text**.
 
