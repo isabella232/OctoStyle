@@ -13,7 +13,7 @@ Both the [Octopus blog](https://github.com/OctopusDeploy/blog) and the [Octopus 
 - [YAML headers](#yaml-headers)
 - [Table of contents](#table-of-contents)
 - [Headings](#headings)
-- [Formating text](#formating-text)
+- [Formatting text](#formatting-text)
 - [Images](#images)
 - [Lists](#lists)
 - [Tables](#tables)
