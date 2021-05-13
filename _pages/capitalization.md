@@ -10,7 +10,7 @@ As a general rule, capitalize words and terms that are proper nouns or would nor
 
 For Octopus, this means capitalizing product names, tool names, and the names of features, but not general concepts.
 
-The following are capitalized:
+The following are capitalized when they refer to the product or product names:
 
 - Octopus Server
 - Octopus Cloud
@@ -21,10 +21,18 @@ The following are capitalized:
 The following are not capitalized (unless at the start of a sentence):
 
 - deployment target
-- environment 
+- environment
 - server
 - built-in repository
 - runbooks (the concept not the feature)
+
+## Proper nouns vs common nouns
+
+A proper noun is the name of a specific instance of a thing, such as Australia and Octopus Deploy. A common noun is a general concept that refers to a class of things, such as country and deployment tool. The context words are used in can change whether a word is being used as a proper noun or a common noun. For instance,
+
+> With the Octopus Spaces feature you can create separate spaces for each of your teams' infrastructure and projects.
+
+In the above example, "Octopus Spaces" is the name of the feature, so it's capitalized, however, "separate spaces" refers to spaces as a general class of things and is not capitalized.
 
 ## Special note for IDs
 
@@ -37,4 +45,3 @@ The only exception to the rule is to use the same style as the UI you're documen
 ## Titles
 
 Titles are written in sentence case, and only words that are normally capitalized are capitalized in titles.
-
