@@ -28,11 +28,11 @@ The following are not capitalized (unless at the start of a sentence):
 
 ## Proper nouns vs common nouns
 
-A proper noun is the name of specific instance of a thing, Australia, Octopus Deploy. A common noun is general concept that refers to a class of things, country, deployment tool. The context words are used in can change whether a word is being used as a proper noun or a common noun. For instance,
+A proper noun is the name of a specific instance of a thing, such as Australia and Octopus Deploy. A common noun is a general concept that refers to a class of things, such as country and deployment tool. The context words are used in can change whether a word is being used as a proper noun or a common noun. For instance,
 
-> With the Octopus Spaces feature you can create seperate spaces for each of your teams' infrastructure and projects.
+> With the Octopus Spaces feature you can create separate spaces for each of your teams' infrastructure and projects.
 
-In the above example, "Octopus Spaces" is the name of the feature, so it's capitalized, however, separate "spaces" refers to spaces as a general class of things and is not capitalized.
+In the above example, "Octopus Spaces" is the name of the feature, so it's capitalized, however, "separate spaces" refers to spaces as a general class of things and is not capitalized.
 
 ## Special note for IDs
 
