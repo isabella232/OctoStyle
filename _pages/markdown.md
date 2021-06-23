@@ -290,7 +290,7 @@ This release includes the following breaking changes...
 :::
 ```
 
-This will be rendered as:
+This will be converted to the following HTML:
 
 ```html
 <div class="alert alert-warning">
@@ -317,13 +317,11 @@ To create reusable text that is automatically added to any document that referen
 The latest version of Octopus Deploy is 2020.1
 ```
 
-If the complete filename is `latest-version.include.md`, to include the text in other documents, use the following everywhere you want the text to be included:
+If the complete filename is `latest-version.include.md`, to include the text in other documents, use the following everywhere you want to include the text:
 
 `!include <latest-version>`
 
 When you use an include file in this way, you only need to update the text in one file and the updated text will be included anywhere it is referenced.
-
-See [Octopus snippets](octopus-snippets.md) for more information on this topic and a library of ready to use snippets across repos.
 
 ### Referencing Docker images
 
@@ -351,9 +349,9 @@ Will be replaced with:
 
 ## Link to the Octopus Guides
 
-The Octopus Guides combine content to allow users to specify their entire CI/CD pipeline and access a guide for their specific pipeline. It is sometimes helpful to link to the guides with specific options pre-defined rather than the default options.
+The [Octopus Guides](https://octopus.com/docs/guides) combine content to allow users to specify their entire CI/CD pipeline and access a guide for their specific pipeline. It is sometimes helpful to link to the guides with specific options pre-defined rather than the default options.
 
-You can create the links to use by adding query parameters to the URL for the guides `https://www.octopus.com/docs/guides`:
+You create the links to specific guides by adding query parameters to the URL for the guide `https://www.octopus.com/docs/guides`:
 
 - Application: add `?application=PHP`:
 

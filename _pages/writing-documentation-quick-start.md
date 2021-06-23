@@ -36,7 +36,7 @@ You should structure documentation as follows:
 
 3. Additional information
 
-    Next, provide any reference material, advanced uses cases or edges, troubleshooting steps, and FAQs.
+    Next, provide any reference material, advanced uses cases, troubleshooting steps, and FAQs.
 
    **Reference material**
 
@@ -46,11 +46,11 @@ You should structure documentation as follows:
 
 4. Learn more
 
-    Add links to related documentation, the blog, or other resources to help the reader continue their journey.
+    Add links to related documentation, blog posts, or other resources to help the reader continue their journey.
 
 ## Adding new page vs. editing an old page
 
 As a rule of thumb, we should aspire to make each page explain something that will help the reader achieve a goal.
 
-In some scenarios, there might be multiple options and including them all on a single page might give the reader scroll fatigue or make it difficult to jump between the pieces they need. In such cases, it might be better to include the options on child pages.
+In some scenarios, there might be multiple options and including them all on a single page might give the reader scroll fatigue or make it difficult to jump between the information they need. In such cases, it might be better to include the options on child pages.
 

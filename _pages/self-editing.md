@@ -15,7 +15,7 @@ Most of what we publish and share with the world is edited, but not all of it is
 
 1. Delete anything that doesn't add to your point.
 
-   When we write, our first drafts often include extraneous details that help us write the first draft, but aren't useful to the reader. When you review your work, ask yourself if everything you've included will be interesting or useful to the reader. Chances are, they're interested in the topic you've written about, but not necessarily the personal circumstances that led to your insights about the topic.
+   When we write, our first drafts often include extraneous details that help us write the first draft but aren't useful to the reader. When you review your work, ask yourself if everything you've included will be interesting or useful to the reader. Chances are, they're interested in the topic you've written about, but not necessarily the personal circumstances that led to your insights about the topic.
 
 1. Turn on your spell checker.
 

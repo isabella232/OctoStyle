@@ -12,13 +12,12 @@ This page provides some tips for writing for the Octopus blog.
 
 ## What to write
 
-We have five main categories that we blog about:
+We have four main categories that we blog about:
 
 - **Company**: Announcements about changes at Octopus.
 - **Product**: Posts detailing new releases, features, the roadmap, RFCs, etc.
 - **Engineering**: Posts about developer tools, programming, performance, and behind the scenes technical posts.
 - **CI/CD and DevOps**: CI/CD, DevOps, and operations related posts.
-- **Events and Webinars**: Information about events we're attending and webinars we're running.
 
 ## Principles
 
