@@ -1,5 +1,6 @@
 ---
 layout: home-page
+description: Style info
 ---
 
 Everybody at Octopus writes whether it's documentation, blog posts, CLI help text, marketing copy, pitches, support emails, or text within the product itself. This guide is a quick reference for the conventions we use at Octopus, and a resource to keep us consistent whenever we're unsure how to write or structure a piece of text.
